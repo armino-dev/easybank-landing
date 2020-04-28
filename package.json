@@ -1,0 +1,31 @@
+{
+  "name": "easybank-landing-page",
+  "version": "1.0.0",
+  "description": "Easybank landing page for Frontend Mentor challenge",
+  "main": "index.html",
+  "scripts": {
+    "scss": "node-sass scss -o css",
+    "watch": "node-sass --watch scss -o css",
+    "server:php": "php -S localhost:3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armino-dev/easybank-landing.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "scss",
+    "javascript"
+  ],
+  "author": "Armino Popp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/armino-dev/easybank-landing/issues"
+  },
+  "homepage": "https://github.com/armino-dev/easybank-landing#readme",
+  "dependencies": {
+    "node-sass": "^4.14.0"
+  }
+}
