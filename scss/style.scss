@@ -123,15 +123,7 @@ hr {
                 color: $blue-dark;
                 &:hover {
                     color: $green-lime;
-                    position: relative;
-                    &:after {
-                        position: absolute;
-                        content: "";
-                        width:100%;
-                        height:5px;
-                        bottom: 0;
-                        background-color: $green-lime;
-                    }
+                    position: relative;                    
                 }
             }
         }       
@@ -463,7 +455,7 @@ footer {
                padding: 0 10px;
                margin-right: 40px;
                li {
-                   text-align: s;
+                   text-align: start;                   
                }
             }
         }        
@@ -481,7 +473,17 @@ footer {
                 display: flex;
                 a{
                     font-size: 14px;
-                    color: $blue-grayish;                    
+                    color: $blue-grayish;   
+                    &:hover {
+                        &:after {
+                            position: absolute;
+                            content: "";
+                            width:100%;
+                            height:5px;
+                            bottom: 0;
+                            background-color: $green-lime;
+                        }
+                    }                 
                 }
                                 
             }       
