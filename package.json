@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/armino-dev/easybank-landing#readme",
   "dependencies": {
-    "node-sass": "^7.0.0"
+    "node-sass": "^9.0.0"
   }
 }
